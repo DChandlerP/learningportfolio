@@ -1,0 +1,25 @@
+//switch with booleans and default
+var user = prompt('ask something here').toUpperCase();
+switch(user){
+    case 'a':
+        if (x && y) {
+        }
+        else{
+        }
+        break;
+    case 'b':
+        if (x || y) {
+        }
+        else{
+        }
+        break;
+    case 'c':
+        if (!x && y) {
+        }
+        else{
+        }
+        break;
+    default:
+        console.log('Invalid Input');
+        break;
+}
