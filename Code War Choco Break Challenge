@@ -1,0 +1,15 @@
+/* Code Wars asks you to break a chocolate bar with the dimensions into 1X1 pieces. They show you the test cases they will run. 
+I realized the algorithm for this would be (n*m -1) based on the examples they gave.
+*/
+
+var breakChocolate = function(n, m) {
+if (n > 0 && m > 0) {
+  return n * m -1
+}
+else {
+  return 0
+}
+}
+//Test Cases Below. Only ran this in their browser.
+Test.assertEquals(breakChocolate(5, 5) , 24)
+Test.assertEquals(breakChocolate(1, 1) , 0)
